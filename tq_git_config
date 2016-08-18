@@ -1,0 +1,14 @@
+[user]
+	name = indieterminacy
+	email = indieterminacy@nortonspeal.com
+[credential]
+	helper = cache --timeout=3600
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+
+#For this issue http://stackoverflow.com/questions/12179655/vundle-for-vim-is-not-working-on-ubuntu
+[core]
+	autocrlf = input
+	safecrlf = false
